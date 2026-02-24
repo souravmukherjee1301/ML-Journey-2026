@@ -1,7 +1,7 @@
 marks = [45, 67, 89, 34, 90, 56]
 total_marks = sum(marks)
 print("Total Marks:", total_marks)
-average_marks = total_marks / len(marks)
+average_marks = round(total_marks / len(marks), 2)
 print("Average Marks:", average_marks)
 highest_marks = max(marks)
 print("Highest Marks:", highest_marks)
